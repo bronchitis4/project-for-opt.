@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("../fonts/RedHatDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/RedHatDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-menu {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  padding-top: 20px;
+}
+
+.menu a {
+  padding-left: 20px;
+  color: #000000;
+  font-size: 12px;
+  line-height: 22px;
+  font-family: "Roboto";
+  text-decoration: none;
+}
+
+.textimg-header {
+  padding: 100px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-header {
+  width: 640px;
+}
+
+h3 {
+  color: #fa5652;
+  font-family: "Red Hat Display";
+  line-height: 30px;
+  font-size: 26px;
+}
+
+h2 {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  color: #30612e;
+  font-family: "Red Hat Display";
+  font-size: 40px;
+  line-height: 53px;
+}
+
+.text-header p {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 45px;
+  color: #4b4f51;
+  margin-bottom: 50px;
+}
+
+.text-header a {
+  padding: 30px 100px;
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #fa5652;
+  border-radius: 65px;
+}
+
+.textimg-about {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-text {
+  width: 650px;
+  margin-top: 50px;
+}
+
+.about-text a {
+  border-radius: 65px;
+  padding: 20px 100px;
+  background-color: #f8dfdf;
+  text-decoration: none;
+  font-family: "Red Hat Display";
+  line-height: 24px;
+  color: #fa5652;
+}
+
+.about-text p {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 45px;
+  color: #4b4f51;
+  margin-bottom: 50px;
+}
+
+.textimg-contagion {
+  display: flex;
+  justify-content: center;
+}
+
+.contagion-text {
+  width: 570px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.contagion-text p {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 45px;
+  color: #4b4f51;
+  margin-bottom: 50px;
+}
+
+.kartunku {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.kartunku h3 {
+  color: #156626;
+  font-family: "Roboto";
+  font-size: 28px;
+  line-height: 46px;
+}
+
+.kartunku p {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 45px;
+  color: #4b4f51;
+  margin-bottom: 50px;
+}
+
+.human-contact {
+}
